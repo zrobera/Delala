@@ -6,7 +6,7 @@ And as the admin is saved in local data base u need to import the collection in 
 user , cart and house collections are found there
 
 
-the basic crud fuctionality is done for 
+the basic crud fuctionality is done for "house" and "add to cart" fucntionality 
 
 
 
