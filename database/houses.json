@@ -1,0 +1,163 @@
+[{
+  "_id": {
+    "$oid": "63e80934ed685b98e08f6831"
+  },
+  "price": 400000,
+  "description": "Near asphalt finished large garage beautiful garden well kebt and clean nearly amended ",
+  "bed": 2,
+  "bathroom": 3,
+  "parking": 2,
+  "photos": [
+    "imgs/h12.jpg",
+    "imgs/h11.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h14.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "eden",
+  "year_build": 2018,
+  "status": "for sale",
+  "price_range": "500,000-1,000,000",
+  "garage": 1,
+  "area": 300,
+  "location": "Adiss Ababa",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0,
+  "propert_type": "house"
+},{
+  "_id": {
+    "$oid": "63e80974ed685b98e08f6833"
+  },
+  "price": 400000,
+  "description": "Near asphalt finished large garage beautiful garden well kebt and clean nearly amended ",
+  "bed": 3,
+  "bathroom": 3,
+  "parking": 2,
+  "photos": [
+    "imgs/h11.jpg",
+    "imgs/h10.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h14.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "abel",
+  "year_build": 2017,
+  "status": "for sale",
+  "price_range": "500,000-1,000,000",
+  "garage": 3,
+  "area": 300,
+  "location": "Adiss Ababa",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0,
+  "propert_type": "house"
+},{
+  "_id": {
+    "$oid": "63e809e1ed685b98e08f6835"
+  },
+  "price": 400000,
+  "description": "Near asphalt finished large garage beautiful garden well kebt and clean nearly amended ",
+  "bed": 3,
+  "bathroom": 3,
+  "parking": 2,
+  "photos": [
+    "imgs/h15.jpg",
+    "imgs/h10.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h14.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "abel",
+  "year_build": 2017,
+  "status": "for rent",
+  "price_range": "<100,000",
+  "garage": 3,
+  "area": 300,
+  "location": "Gondor",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0,
+  "propert_type": "house"
+},{
+  "_id": {
+    "$oid": "63e80a36ed685b98e08f6837"
+  },
+  "price": 600000,
+  "description": "it is found near black asphalt finished large garage beautiful garden well kebt and clean nearly amended ",
+  "bed": 4,
+  "bathroom": 1,
+  "parking": 2,
+  "photos": [
+    "imgs/h13.jpg",
+    "imgs/h10.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h14.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "Abrham",
+  "year_build": 2013,
+  "status": "for rent",
+  "price_range": "<100,000",
+  "garage": 3,
+  "area": 400,
+  "location": "Gondor",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0,
+  "propert_type": "house"
+},{
+  "_id": {
+    "$oid": "63e82763e02d5352a92460a8"
+  },
+  "price": 1000000,
+  "description": "Near asphalt finished large garage beautiful garden well kebt and clean nearly amended  ",
+  "bed": 4,
+  "bathroom": 1,
+  "parking": 0,
+  "photos": [
+    "imgs/h14.jpg",
+    "imgs/h10.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h14.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "Nigus",
+  "year_build": 2013,
+  "status": "for rent",
+  "price_range": "1,000,000-2,000,000",
+  "propert_type": "apartment",
+  "garage": 0,
+  "area": 200,
+  "location": "Hawasa",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e82793e02d5352a92460aa"
+  },
+  "price": 1000000,
+  "description": "Near asphalt finished large garage beautiful garden well kebt and clean nearly amended ",
+  "bed": 4,
+  "bathroom": 4,
+  "parking": 0,
+  "photos": [
+    "imgs/h12.jpg",
+    "imgs/h11.jpg",
+    "imgs/h12.jpg",
+    "imgs/h13.jpg",
+    "imgs/h12.jpg"
+  ],
+  "video": "video/abel3.mp4",
+  "relator": "Nigus",
+  "year_build": 2013,
+  "status": "for sale",
+  "price_range": "1,000,000-2,000,000",
+  "propert_type": "apartment",
+  "garage": 0,
+  "area": 400,
+  "location": "Adiss Ababa",
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8164.208970618615!2d38.760791824064825!3d8.986661096424816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844682afcdd1%3A0xaba214fd5c4b0a0d!2sVilla%20Verde%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2set!4v1672055912397!5m2!1sen!2set",
+  "__v": 0
+}]
