@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 17px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+header {
+    background-color: #d9d9d9;
+    height: 15vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px 0px;
+    max-width: 350px;
+    margin: auto;
+}
+
+nav img {
+    width: 2.4em;
+}
+
+.links {
+    top: 0px;
+    position: absolute;
+    left: -3000px;
+    background-color: #1a5e76;
+    padding: 50px 0px;
+    height: 100vh;
+    width: 50%;
+    z-index: 2;
+}
+
+
+.sml-cont{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    
+ 
+    
+}
+
+
+.show-link {
+    left: 0%;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.link a {
+    color: #d9d9d9;
+}
+.links li {
+    font-size: 1.2em;
+    list-style: none;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    transition: 0.3s;
+}
+/* body */
+form label{
+    display: none;
+}
+.sort{
+    background-color:#1a5e76;
+    padding: 20px;
+}
+form input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 65px;
+    margin: 1s0px 0px;
+}
+form select{
+    height: 40px;
+    width: 48%;
+}
+.title {
+    text-align: center;
+    color:#d9d9d9;
+    text-transform: capitalize;}
+form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.result button{
+    margin: 20px;
+    background-color: #a82471;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: #d9d9d9;
+    width: 20%;
+    font-size: 0.8em;
+}
+form button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 3px solid #a82471;
+    color: #d9d9d9;
+    font-size: 1.2em;  
+}
+.sortby{
+    width: 20px;
+height: 20px;}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+figcaption{
+    display: none;
+}
+.box img{
+    max-width: 100%;
+}
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 3px rgb(153, 142, 142); 
+
+}
+.box .sub-photos{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.sub-photos img{
+ width: 4em;
+}
+.description{
+    padding: 20px;
+}
+.description p{
+    opacity: 0.8;
+}
+.price, .add{
+    font-weight: 800;
+    margin: 10px 0px ;
+}
+.icons img{
+    width: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+}
+.button a{
+    color: white;
+    opacity: 1;
+    font-size: 0.8em;
+}
+.description .button{
+   padding: 10px 0px ;
+    background-color: #1a5e76;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.2em;
+    
+}
+
+/* footer */
+footer {
+    background-color: #d9d9d9;
+}
+
+footer .banner2 {
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    background-color: #a82471;
+    padding: 30px 20px;
+    border-bottom-right-radius: 50px;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-container .col h2 {
+    color: #1a5e76;
+    font-size: 1.2em;
+    border-top: 2px solid #a82471;
+}
+
+.footer-container .col p,
+h3,
+a {
+    opacity: 0.6;
+    margin: 5px;
+    font-size: 0.8em;
+    color: black;
+}
+
+.footer-container img {
+    width: 1.2em;
+}
+
+.copyright {
+    padding: 30px;
+    text-align: center;
+}
+.more h1{
+text-transform: capitalize;
+text-align: center;
+border-bottom: 2px solid #a82471;
+}
+
+@media (min-width:520px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 450px;
+       
+    }
+    nav {
+        max-width: 450px;
+    }
+}
+
+@media (min-width:620px) {
+     
+    .box .sub-photos img{
+        width: 5em;
+    }
+        .container {
+            max-width: 550px;
+        }
+      
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .footer-container .col {
+        flex: 42%;
+    }
+}
+
+@media (min-width:750px) {
+    .containt-container {
+        max-width: 650px;
+        margin: auto;
+    }
+    .container {
+              max-width: 650px;
+          }
+    nav {
+        max-width: 600px;
+    }
+     
+}
+
+@media (min-width:920px) {
+    form input {
+            padding: 10px;
+            width: 20%;
+        
+        }
+      .container {
+                    max-width: 850px;
+                }
+                                  .links li:hover {
+                                      background-color: #1a5e76;
+                                      cursor: pointer;
+                                  }
+    form select{
+        width: 25%;
+    }
+    form button{
+        width: 25%;
+        height: 100%;
+        font-size: 0.8em;
+    }
+    .toggler {
+        display: none;
+    }
+
+    nav {
+        max-width: 800px;
+        justify-content: flex-start;
+    }
+
+    .links {
+        position: static;
+        background-color: transparent;
+        height: auto;
+        margin-left: auto;
+    }
+
+    .links ul {
+        display: block;
+    }
+
+   .links li {
+       display: inline;
+       padding: 10px;
+   }
+    .links a {
+        color: black;
+        font-size: 0.7em;
+        opacity: 1;
+    }
+    .sortby{
+        margin-left: auto;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+   .sub-photos{
+    
+    flex-wrap: wrap;
+   }
+}
+
+@media (min-width:1100px) {
+    
+
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .footer-container .col {
+        flex: 23%;
+    }
+
+    .containt-container form {
+        flex-direction: row;
+
+    }
+    form div {
+        flex: 45%
+    }
+
+  
+}
