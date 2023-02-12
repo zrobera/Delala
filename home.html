@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <style>
+          .revel.whole{
+            height: 85vh;
+             background-color: #6c757d;
+          }
+        </style>
+    
+    <!-- <link rel="stylesheet" href="css/homestyle.css"> -->
+    <title>delala| home</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class=" navbar navbar-expand-lg  bg-light">
+          <div class="container-lg px-5">
+            <a class="navbar-brand me-auto "><img width="40px" src="imgs/logo1.png" alt="logo delala"></a>
+            <div class=" collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="home.html">HOME</a></li>
+                    <li class="links__item "><a class="nav-link " aria-current="page" href="service.html">SERVICE</a></li>
+                    <li class="links__item "><a class="nav-link " aria-current="page" href="about.html">ABOUT</a></li>
+                     <li class="links__item "><a class="nav-link " aria-current="page" href="contact.html">CONTACT</a></li>
+                     <li class="links__item "><a class="nav-link btn btn-dark ms-3 text-light logout" aria-current="page">Log out</a></li>
+                     <li class="links__item "><a class="nav-link " aria-current="page" href="cart.html">
+                      <button type="button" class="btn btn-primary  position-relative cart ms-3"></button></a></li>    
+                </ul>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon border-0"></span></button >
+          </div>
+        </nav>
+    </header>
+  <div class="whole">
+    <main class="main bg-secondary">
+      
+          <div class="container-lg p-5  d-flex align-items-center justify-content-center " style="height:87vh">
+              <article class="form-conatiner mt-5 ">
+                <h3 class="lead text-center fs-1 fw-bold mb-5">Find Your Future House</h3>
+                  <form class="row gap-1 justify-content-center align-content-center">
+                  
+                    <div class="col-md-8 ">
+                        <label for="loc" class="form-label d-none">Location</label>
+                        <input type="text" placeholder="location" id="loc" class="form-control py-3">
+                    </div>
+                    
+                   
+                    <div class="col-md-4 my-4 ">
+                        <label for="option" class="d-none" >Option</label>
+                        <select name="option" id="option" class="form-select form-select-lg" >
+                            <option value="" disabled hidden selected>Status</option>
+                            <option value="sale">For Sale</option>
+                            <option value="rent">For Rent</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4  my-4 ">
+                        <label for="price"  class="d-none" >Price</label>
+                        <select name="price" id="price"  class="form-select form-select-lg" >
+                            <option value="" disabled hidden selected>Price</option>
+                            <option value="range1">100k-500k</option>
+                            <option value="range2">500k-1m</option>
+                            <option value="range3">1m-2m</option>
+                            <option value="range4">2m-5m</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 ">
+                        <label for="area"  class="d-none" >Area</label>
+                        <select name="area" id="area"  class="form-select form-select-lg" >
+                            <option value="" disabled hidden selected>Area</option>
+                            <option value="area1">50m.sqr -100m.sqr</option>
+                            <option value="area2">100m.sqr-250m.sqr</option>
+                            <option value="area3">250m.sqr-500m.sqr</option>
+                        </select>
+                    </div>
+                      <div class="col-md-4 mb-4">
+                        <label for="bed"  class="d-none" >Bed</label>
+                        <select name="bed" id="bed"  class="form-select form-select-lg" >
+                            <option value="" disabled hidden selected>Bed</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                      </div>
+                    <button type="button" class="btn btn-dark col-md-4 fs-4 " id="search-btn">Search</button>
+                 
+
+                      
+                    
+                  </form>
+              </article>
+
+          </div>
+    </main>
+    <!-- recent -->
+    <section class="recent-section pt-5 ">
+        <h1 class=" text-center fs-1 text-muted fw-bold mb-5 position-relative">Recent Proprties  <span class="position-absolute  w-75 round bottom-0 start-50 translate-middle rounded-pill bg-secondary" style="height: 3px;"></span> </h1>
+
+    <div class="container-lg">
+        <div class="row result-container" >
+            
+        </div>
+        <div class="d-flex justify-content-center"><button class="btn btn-dark more">More Properties</button></div>
+    </div>
+    </section>
+    <article class="banner  mt-5 py-5 ">
+        <h2  class="title text-center  fs-1  fw-bold "> WHY US</h2>
+        
+        <div class="container-lg ">
+            <div class="row align-items-center">
+                <div class="col-md-6 ">
+                    <p>
+                        <!-- A link to a transcript within the same document -->
+                        <a rel="transcript" for="theVideo" title="English transcript" href="#theText">Transcript below</a>
+                    </p>      
+                    <video  class="banner__container__video w-100"  controls>
+                        <source src="video/abel1.mp4" type="video/mp4">
+                        <!-- <track label="English" kind="captions" srclang="en" src="sample1.vtt" default> -->
+                        <p>n this video, three individuals are seen. One guy and two ladies are watching a house that they wish to buy. The man and one of the women appear to be husband and wife. and the other woman is approving their purchase of the property.</p>
+                    </video>
+                </div>
+                <div class="col-md-6">
+                        <transcript class="theText">This is the english language
+                            Our website was created to fill a void in the Addis Ababa's land, apartment and house marketplace to help sellers
+                            quickly dispose of burdensome properties that are often difficult to market and sell. We have over 8 years of
+                            experience providing expert financial advice for both businesses and individuals. we’ll ensure you’re getting the
+                            best guidance from the smartest people in the industry. For businesses and individuals, you can rely on our Broker
+                            service.
+                        </transcript>
+                        <p class=""> Our website developed a platform for the land , houses and apartment marketplace that allows buyers and sellers to
+                            easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the
+                            hands of the consumers.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="test mb-5">
+        <h1  class="title text-center  position-relative fs-1 text-muted fw-bold ">Testimonials <span class="position-absolute  w-75 round bottom-0 start-50 translate-middle rounded-pill bg-secondary" style="height: 3px;"></span></h1>
+        <div class=" pt-5 container-lg"> 
+            <div class="py-3"></div>
+            <div class="row">
+               <div class="col-md-3">
+                    <div class="card position-relative my-5">
+                        <img src="imgs/test1.jfif"  style="height: 100px; width: 100px;" class="card-img-top position-absolute rounded-pill top-0 start-50 translate-middle" alt="test">
+                        <div class="card-body pt-5 ">
+                            <h2 class="card-title">Eden Gelan</h2>
+                                <p class="card-text">great website really helped me find my home loved it </p>
+                                <div class="icons d-flex">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                </div>
+                        </div>
+                    </div>  
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card position-relative my-5">
+                        <img src="imgs/test2.jfif"  style="height: 100px; width: 100px;" class="card-img-top position-absolute rounded-pill top-0 start-50 translate-middle" alt="test">
+                        <div class="card-body pt-5">
+                            <h2 class="card-title">Selam melkamu</h2>
+                                <p class="card-text">great website really helped me find my home loved it </p>
+                                <div class="icons d-flex">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                </div>
+                        </div>
+                    </div>  
+                </div>
+                 <div class="col-md-3">
+                    <div class="card position-relative my-5">
+                        <img src="imgs/test3.jfif"  style="height: 100px; width: 100px;" class="card-img-top position-absolute rounded-pill top-0 start-50 translate-middle" alt="test">
+                        <div class="card-body pt-5">
+                            <h2 class="card-title">Abel Nigus</h2>
+                                <p class="card-text">great website really helped me find my home loved it </p>
+                                <div class="icons d-flex">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                </div>
+                        </div>
+                    </div>  
+                </div>
+
+
+                 <div class="col-md-3">
+                    <div class="card position-relative my-5">
+                        <img src="imgs/test4.jfif"  style="height: 100px; width: 100px;" class="card-img-top position-absolute rounded-pill top-0 start-50 translate-middle" alt="test">
+                        <div class="card-body pt-5">
+                            <h2 class="card-title">selemon Minal</h2>
+                                <p class="card-text">great website really helped me find my home loved it </p>
+                                <div class="icons d-flex">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                    <img src="font/star.png"  width="20px" height="20px"  alt="">
+                                </div>
+                        </div>
+                    </div>  
+                </div>
+         
+        </div>
+    </section>
+  
+   <footer class="footer mt-5 bg-light">
+      <div class="container-lg">
+        <div
+          class="d-flex justify-content-between align-items-center p-5 bg-secondary"
+          style="border-bottom-right-radius: 100px"
+        >
+          <p class="text-light">Add Your Property For Sale</p>
+          <p class="text-light">+251 78892323</h4>
+        </div>
+        <div class="row mt-5">
+          <!-- col -->
+          <div class="col-md-3 my-3">
+            <h2 class="footer__container__item__heading">Contact</h2>
+            <p class="footer__container__item__body">
+              you can contact us through our email on our branch in solom tower
+            </p>
+            <h5 class="footer__container__item__value">Addis Ababa</h5>
+          </div>
+          <div class="col-md-3 my-3">
+            <h2 class="footer__container__item__heading">Links</h2>
+            <div class="facebook">
+              <a class="text-decoration-none text-dark" href="#"
+                >Facebook <img src="font/facebook.png" width="30px" alt="" />
+              </a>
+            </div>
+            <div class="twitter">
+              <a class="text-decoration-none text-dark" href="#"
+                >Twitter <img src="font/twitter.png" width="30px" alt="" />
+              </a>
+            </div>
+            <div class="instagram">
+              <a class="text-decoration-none text-dark" href="#"
+                >Instagram<img src="font/instagram.png" width="30px" alt="" />
+              </a>
+            </div>
+            <div class="telegram">
+              <a class="text-decoration-none text-dark" href="#"
+                >Telegram <img src="font/telegram.png" width="30px" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 my-3">
+            <h2 class="footer__container__item__heading">Discover</h2>
+            <p class="footer__container__item__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio esse
+              ipsa minimaquam maxime, ?
+            </p>
+          </div>
+          <div class="col-md-3 my-3">
+            <h2 class="footer__container__item__heading">Help</h2>
+            <p class="footer__container__item__body">
+              Our website was created to fill a void in the Addis Ababa's land,
+              apartment and house marketplace to help sellers
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <hr />
+        Copyright ©2022 All rights reserved
+      </div>
+    </footer>
+    </div>
+    <script src="javascript/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<!-- <div class="container h-100 d-flex justify-content-between align-items-center">
+<h3>Please log in to see our site</h3>
+<a href="index.html" class="link-danger">login</a>
+</div> -->
