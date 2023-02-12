@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "63e88ead13a7b977063e4685"
+  },
+  "userName": "abelnigus",
+  "email": "abinig7@gmail.com",
+  "password": "$2b$10$/jbyoJl23WuevfaWsEYo6u.K8LwYjmLkBRGtFIiEUFMuUUkFbQtlO",
+  "role": "visitor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9295d8f9e81e866c261b6"
+  },
+  "userName": "abelnigus",
+  "email": "abinig8@gmail.com",
+  "password": "$2b$10$8XSgq1GDavCskmu/KJATnuDHq7hH2GMHis0SLLvkhLd3B3BA5UnX2",
+  "role": "admin",
+  "__v": 0
+}]
