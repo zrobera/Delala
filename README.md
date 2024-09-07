@@ -12,6 +12,7 @@ Delala is a web platform designed to help users search, explore, and discover th
 
 - **Frontend**:
   - HTML5 & CSS3 (for responsive and modern design)
+  - Javascript and Typescript
   
 - **Backend**:
   - Node.js with Nestjs (REST API for managing user data and property listings)
